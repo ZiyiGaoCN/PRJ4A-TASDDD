@@ -7,8 +7,15 @@ keywords: keyword1, keyword2
 mathjax: true
 ---
 # URL `/register`
+该API仅接受POST方法请求，方法请求均应当设置状态码为 405 Method Not Allowed，错误响应格式为：
+```json
+{
+  "code": -3,
+  "info": "Bad method"
+}
+```
 
-## PUT
+## POST
 
 请求增加一个账号。
 
@@ -16,20 +23,20 @@ mathjax: true
 
 ```json
 {
-  "uesrName": "Alice",
+  "userName": "Alice",
   "password": "fsafojofjoajfodsajfjoijfsaoif.....",
-  "role": "player",
-  "inviteNumber": ""
+  "userType": "labeler",
+  "invitation_code": "asfjgwiqua"
 }   
 ```
 
-其中`UserName`需要满足是长度在`3`到`20`之间。
+其中`userName`需要满足是长度在`3`到`20`之间。
 
 `password`不能为明文传输，约定为XX加密方式。
 
-`role` 必须是 `player`,`distributor`,`intermediary`
+`userType` 必须是 `LB`,`DM`,`IT`
 
-`inviteNumber`可以为空，长度限制为`10`。
+`invitation_code`可以为空，长度限制为`10`。
 
 ### 成功响应体
 
