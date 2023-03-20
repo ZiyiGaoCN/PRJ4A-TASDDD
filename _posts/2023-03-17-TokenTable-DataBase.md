@@ -12,4 +12,4 @@ keywords: keyword1, keyword2
 
 `user`:直接外链到User数据库。
 
-`RefreshTime`:过期时间。
+`refreshTime`:过期时间。
