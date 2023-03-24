@@ -1,9 +1,9 @@
 ---
 layout: post
 title: API——/login
-categories: ['/token/user']
+categories: ['token','user']
 description: /token/user的API
-keywords: keyword1, keyword2
+keywords: 
 mathjax: true
 ---
 # URL `token/user`
