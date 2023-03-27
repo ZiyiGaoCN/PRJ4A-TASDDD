@@ -28,7 +28,7 @@ mathjax: true
 {
   "userName": "Alice",
   "password": "fsafojofjoajfodsajfjoijfsaoif.....",
-  "userType": "labeler",
+  "userType": "LB",
   "invitation_code": "asfjgwiqua"
 }   
 ```
@@ -58,7 +58,7 @@ mathjax: true
 
 ```json
 {
-    "code": "*",
+    "code": -1,
     "info": "[Some message]"
 }
 ```
