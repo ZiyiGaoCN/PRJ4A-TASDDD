@@ -1,7 +1,7 @@
 ---
 layout: post
-title: User DB
-categories: [cate1, cate2]
+title: TokenTable DB
+categories: [TokenTable, cate2]
 description: some word here
 keywords: keyword1, keyword2
 ---
@@ -12,4 +12,4 @@ keywords: keyword1, keyword2
 
 `user`:直接外链到User数据库。
 
-`RefreshTime`:过期时间。
+`refreshTime`:过期时间。
