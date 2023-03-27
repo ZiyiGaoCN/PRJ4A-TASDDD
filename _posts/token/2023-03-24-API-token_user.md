@@ -1,8 +1,8 @@
 ---
 layout: post
-title: API——/login
+title: API————/token/user请求
 categories: ['token','user']
-description: /token/user的API
+description: 请求用户的基本数据信息
 keywords: 
 mathjax: true
 ---
@@ -18,6 +18,7 @@ mathjax: true
 
 ### 请求体
 - [x] 请前端同学完成，责任人：高子翼
+
 ```json
 {
     "token":"123213123"

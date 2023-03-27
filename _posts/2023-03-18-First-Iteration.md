@@ -24,6 +24,10 @@ topmost: true
 - 部署：高子翼
 
 
+## BUG汇总
+- [ ] 前端注册未加密，负责人：刘齐畅
+-  
+
 ## 3.16~3.23任务
 - [ ] [后端/register POST请求](2023-03-16-API-register.md) 责任人：
 - [ ] [后端/login POST请求](2023-03-16-API-login.md) 责任人：
