@@ -3,11 +3,14 @@ layout: post
 title: API————/token/user请求
 categories: ['token','user']
 description: 请求用户的基本数据信息
-keywords: 
+keywords:
 mathjax: true
 ---
+
 # URL `token/user`
+
 ## POST
+
 - [x] 已完成填写，责任人：高子翼
 
 使用`token`，访问用户的基本数据信息。
@@ -17,11 +20,12 @@ mathjax: true
 检查成功后，后端需要获得该`token`对应`user`，并且返回`user`的对应信息。
 
 ### 请求体
+
 - [x] 请前端同学完成，责任人：高子翼
 
 ```json
 {
-    "token":"123213123"
+  "token": "123213123"
 }
 ```
 
@@ -34,24 +38,27 @@ mathjax: true
   "info": "Succeed",
   "code": 0,
   "data": {
-    "uid": 1,
-    "username": "Alice",
+    "id": 1,
+    "name": "Alice",
     "userType": "LB",
     "accPoints": 0,
     "creditScore": 100,
     "membership": 0,
-    "invitationCode": "abcdefg",
+    "invitationCode": "abcdefg"
   }
 }
 ```
+
 ### 失败响应体
+
 - [√] 请后端同学完成，责任人：张珈铭
 
 状态码为`500`,code码为`-1`
+
 ```json
 {
-    "code": -1,
-    "info": "[Some message]"
+  "code": -1,
+  "info": "[Some message]"
 }
 ```
 
