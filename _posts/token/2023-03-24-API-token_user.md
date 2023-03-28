@@ -27,21 +27,27 @@ mathjax: true
 
 ### 成功响应体
 
-- [ ] 请后端同学完成，责任人：
+- [√] 请后端同学完成，责任人：张珈铭
 
 ```json
 {
   "info": "Succeed",
   "code": 0,
   "data": {
-    
+    "uid": 1,
+    "username": "Alice",
+    "userType": "LB",
+    "accPoints": 0,
+    "creditScore": 100,
+    "membership": 0,
+    "invitationCode": "abcdefg",
   }
 }
 ```
 ### 失败响应体
-- [ ] 请后端同学完成，责任人：
+- [√] 请后端同学完成，责任人：张珈铭
 
-状态码为`None`,code码为`None`
+状态码为`500`,code码为`-1`
 ```json
 {
     "code": -1,
@@ -49,4 +55,4 @@ mathjax: true
 }
 ```
 
-`info`包括但不限于: `Invalid username or password`.
+`info`包括但不限于: `Token not existed` `Token has expired`.
