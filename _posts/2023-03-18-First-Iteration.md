@@ -25,12 +25,14 @@ topmost: true
 
 
 ## BUG汇总
-- [ ] 前端注册未加密，负责人：刘齐畅
--  
+- [x] 前端注册未加密，负责人：刘齐畅
+- [ ]
 
 ## 3.16~3.23任务
-- [ ] [后端/register POST请求](2023-03-16-API-register.md) 责任人：
-- [ ] [后端/login POST请求](2023-03-16-API-login.md) 责任人：
+- [x] [后端/register POST请求](2023-03-16-API-register.md) 责任人：
+- [x] [后端/login POST请求](2023-03-16-API-login.md) 责任人：
 
 ## 3.24~3.31任务
-- [ ] [后端 /token/user POST请求](2023-03-24-API-token_user.md) 责任人：
+- [x] [后端 /token/user POST请求](2023-03-24-API-token_user.md) 责任人：
+- [x] [后端 /create POST请求]()
+- [x] [后端 /label POST请求]()
